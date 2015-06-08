@@ -1,0 +1,18 @@
+<head>
+  <title>pic_server</title>
+</head>
+
+<body>
+    <div id="wrap">
+        <h1>Welcome to Pic Server!</h1>
+
+        {{> home}}
+
+    </div>
+</body>
+
+<template name="home">
+    {{tip}}
+    {{> dropzone multiple=true  }}
+</template>
+
